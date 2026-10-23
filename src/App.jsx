@@ -1643,6 +1643,10 @@ export default function App() {
               className="w-full bg-emerald-500 text-black font-black py-2 rounded-xl"
             >
               ✓ Confirm Pinpoint & Close Google Maps
+              <div className="text-xs text-slate-400 mt-4 border-t pt-2 flex justify-between">
+  <span>System Version: v{__APP_VERSION__}</span>
+  <span>Built: {new Date(__BUILD_TIME__).toLocaleString()}</span>
+</div>
             </button>
           </div>
         </div>
